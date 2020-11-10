@@ -1,0 +1,140 @@
+header {
+
+  .van-nav-bar__text,
+  .van-icon-arrow-left::before,
+  .van-nav-bar__title {
+    color: #fff;
+  }
+
+  .van-nav-bar__left {
+    padding: 0;
+  }
+}
+
+.patientList {
+  .van-search {
+    .van-cell {
+      line-height: normal;
+    }
+  }
+
+  .van-pull-refresh__head {
+    margin-top: 20px;
+  }
+
+  .van-pull-refresh__track {
+    height: 250px !important;
+  }
+}
+
+.firstExamine {
+  .van-tabs__nav--card .van-tab.van-tab--active {
+    background-color: @blue;
+  }
+
+  .van-tab {
+    width: 50px;
+  }
+
+  .van-tab--active {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .van-tabs__nav--card {
+    border: 0 solid @blue;
+    width: 150px;
+    margin: 0;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .van-tabs__nav--card .van-tab {
+    color: #000;
+    border-right: 0 solid @blue;
+  }
+
+  main {
+    .van-cell {
+      padding: 0;
+    }
+
+    .van-tabs__wrap {
+      background-color: #f5f6f7;
+    }
+
+    .van-field__body {
+      input {
+        height: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .van-cell__title {
+      width: 35px;
+      margin-right: 0;
+      line-height: 20px;
+
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.main-buttom,
+.main-top {
+  li {
+    .van-cell__title {
+      width: 48px !important;
+    }
+
+    .van-field__body {
+      width: 90px;
+    }
+
+  }
+}
+
+.optometry {
+
+  main,
+  .van-cell__title {
+    width: 60px !important;
+  }
+
+  .van-field__control {
+    width: 80px !important;
+  }
+}
+
+
+.van-cell--required::before {
+  display: none;
+}
+
+
+.van-field--error .van-field__control,
+.van-field--error .van-field__control::placeholder {
+  color: #000 !important;
+  -webkit-text-fill-color: currentColor;
+}
+
+select {
+  -webkit-appearance: none;
+  background: url("../assets/images/below-s.png")no-repeat right;
+  background-size: 0.3rem;
+  background-position-x: 96%;
+}
+
+
+
+/*兼容iphoneX*/
+/*判断是否是iphoneX，使用@media 媒体查询尺寸*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  main {
+    height: 100vh-30 !important;
+  }
+}

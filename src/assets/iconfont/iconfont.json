@@ -1,0 +1,37 @@
+{
+  "id": "1970893",
+  "name": "sgkj-h5",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "827988",
+      "name": "医生",
+      "font_class": "yisheng",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "3830517",
+      "name": "医生",
+      "font_class": "yisheng1",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "3893338",
+      "name": "电脑",
+      "font_class": "diannao",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "13804170",
+      "name": "就诊记录@3x",
+      "font_class": "jiuzhenjilux",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    }
+  ]
+}
